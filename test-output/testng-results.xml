@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="296949" started-at="2017-10-19T08:46:40Z" finished-at="2017-10-19T08:51:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="296949" started-at="2017-10-19T08:46:40Z" finished-at="2017-10-19T08:51:37Z">
+      <class name="testcases.VerifyLoginpagewithReports">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyLoginpagewithReports@14b1c02]" name="setup" is-config="true" duration-ms="139843" started-at="2017-10-19T14:16:40Z" finished-at="2017-10-19T14:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testhomepage()[pri:0, instance:testcases.VerifyLoginpagewithReports@14b1c02]" name="testhomepage" duration-ms="16299" started-at="2017-10-19T14:19:00Z" finished-at="2017-10-19T14:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhomepage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyLoginpagewithReports@14b1c02]" name="tearDown" is-config="true" duration-ms="1813" started-at="2017-10-19T14:19:16Z" finished-at="2017-10-19T14:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyLoginpagewithReports -->
+      <class name="testcases.VerifyLoginpagewithReportsscreenshot">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyLoginpagewithReportsscreenshot@6fa38a]" name="setup" is-config="true" duration-ms="119527" started-at="2017-10-19T14:19:18Z" finished-at="2017-10-19T14:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testhomepage()[pri:0, instance:testcases.VerifyLoginpagewithReportsscreenshot@6fa38a]" name="testhomepage" duration-ms="18531" started-at="2017-10-19T14:21:17Z" finished-at="2017-10-19T14:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhomepage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginpagewithReportsscreenshot@6fa38a]" name="tearDown" is-config="true" duration-ms="873" started-at="2017-10-19T14:21:36Z" finished-at="2017-10-19T14:21:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testhomepage status=SUCCESS method=VerifyLoginpagewithReportsscreenshot.testhomepage()[pri:0, instance:testcases.VerifyLoginpagewithReportsscreenshot@6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyLoginpagewithReportsscreenshot -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke -->
+</testng-results>
